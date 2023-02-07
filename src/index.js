@@ -4,7 +4,7 @@ function handler(event) {
   let clientGeo = event.client.geo
 
   let respBody = JSON.stringify({
-    as: {
+    omg: {
       name: clientGeo.as_name,
       number: clientGeo.as_number,
     },
